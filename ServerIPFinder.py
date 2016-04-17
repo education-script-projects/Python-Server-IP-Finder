@@ -15,7 +15,9 @@ serveripaddressfinder_ico = """
 #           Whatsapp : + 90 534 295 94 31               #
 #########################################################
 """
+
 print serveripaddressfinder_ico
+
 def ServerIPScanner():
 	target = raw_input("WEP SITE ADRESI --> ")
 	targetIP = gethostbyname(target)
