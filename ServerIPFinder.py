@@ -19,7 +19,7 @@ serveripaddressfinder_ico = """
 print serveripaddressfinder_ico
 
 def ServerIPScanner():
-	target = raw_input("WEP SITE ADRESI --> ")
+	target = raw_input("WEP SITE ADRESI --> ") # www.example.com
 	targetIP = gethostbyname(target)
 	print "SERVER IP NUMARASI --> ", targetIP
 ServerIPScanner()
